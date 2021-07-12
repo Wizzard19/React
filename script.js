@@ -20,4 +20,5 @@ var apellido = document.getElementById("apellido_id").value
 var dni = document.getElementById("dni_id").value
 var email = document.getElementById("email_id").value
 var telefono = document.getElementById("tel_id").value
-console.log(nombre,apellido,dni,email,telefono)}
+console.log(nombre,apellido,dni,email,telefono)
+alert("Gracias, en breve nos comunicaremos para ayudarte")}

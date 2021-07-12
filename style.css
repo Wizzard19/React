@@ -1,0 +1,30 @@
+html {
+    font-size: 18px; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: coral;
+}
+
+h3 {
+    text-align: center;
+    
+}
+
+form{
+    text-align: center;
+    
+    }
+
+    label{
+        text-align: center;
+        display: grid;
+        
+    }
+input{
+    text-align: center;
+    display: inline-block;
+    
+}
+
+button Contactanos{
+    size: 150px;
+}
