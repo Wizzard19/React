@@ -1,7 +1,7 @@
 html {
     font-size: 18px; 
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: coral;
+    background:darkturquoise;
 }
 
 h3 {
@@ -10,6 +10,7 @@ h3 {
 }
 
 form{
+    text-size-adjust: 10px;
     text-align: center;
     
     }
@@ -18,6 +19,7 @@ form{
         text-align: center;
         display: grid;
         
+        
     }
 input{
     text-align: center;
@@ -25,6 +27,4 @@ input{
     
 }
 
-button Contactanos{
-    size: 150px;
-}
+
