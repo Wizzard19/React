@@ -21,6 +21,26 @@
                 <label for="">DNI</label>
                 <input type="number"name="dni" id="dni_id">
             </div>
+
+            <div>
+                <label for="">Email</label>
+                <input type="email"name="email" id="email_id">
+            </div>
+
+            <div>
+                <label for="">Telefono</label>
+                <input type="text"name="Telefono" id="tel_id">
+            </div>
+
+            <div>
+                <label for="">Tipo de Seguro</label>
+                <select name="TipoSeguro" id="TipoSeguro" onchange="tipoSeguro()">
+                    <option value="1">Básico</option>
+                    <option value="2">Intermedio</option>
+                    <option value="3">Premium</option>
+
+                </select>
+            </div>
         </form>
         
     </body>
