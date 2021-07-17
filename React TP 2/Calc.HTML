@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        
+        <title>Calculadora Basica</title>
+        
+        <link rel="stylesheet" href="Calcstyle.css">
+        
+        <body>
+             
+            <div><H2>Calculadora</H2></div>
+           
+            <table class="Calculadora">
+                <label for="">Valor 1</label>
+                <br>
+                <input type="number" name="Valor 1" id=val1_id>
+                
+                <br>
+
+                <label for="">Valor 2</label>
+                <br>
+                <input type="number"name="Valor 2" id=val2_id>
+            </table>
+<br>
+               <div id=botones>            
+                <button onclick="suma()">+</button> 
+
+                <button onclick="resta()">-</button>
+
+                <button onclick="multiplica()">*</button>
+
+                <button onclick="dividir()">/</button>
+            </div>
+                <br>
+                
+                <div id="resultado"></div>
+                                    
+        </body>
+        
+    </head>
+    <script src="Calculadora.js"></script>
+</html>
