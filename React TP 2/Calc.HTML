@@ -9,9 +9,8 @@
         
         <body>
              
-            <div><H2>Calculadora</H2></div>
-           
-            <table class="Calculadora">
+            <div id="title"><H2>Calculadora</H2></div>
+           <div id="labels">
                 <label for="">Valor 1</label>
                 <br>
                 <input type="number" name="Valor 1" id=val1_id>
@@ -21,9 +20,12 @@
                 <label for="">Valor 2</label>
                 <br>
                 <input type="number"name="Valor 2" id=val2_id>
-            </table>
+            </div>
+            
 <br>
-               <div id=botones>            
+<div id=buttonstyle>
+               <div id=botones>        
+                   <div id="centro">
                 <button onclick="suma()">+</button> 
 
                 <button onclick="resta()">-</button>
@@ -31,11 +33,13 @@
                 <button onclick="multiplica()">*</button>
 
                 <button onclick="dividir()">/</button>
+            </div>    
             </div>
+        </div>
                 <br>
-                
+                <span id="resultado1">Resultado</span>
                 <div id="resultado"></div>
-                                    
+                              
         </body>
         
     </head>

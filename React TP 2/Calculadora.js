@@ -33,3 +33,4 @@ const dividir=()=>{
     alert("Usted ha realizado una División")    
 }
 
+
