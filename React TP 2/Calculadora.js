@@ -28,7 +28,7 @@ const dividir=()=>{
     console.log(valor1,valor2)
         
     if (valor2==0){
-        document.getElementById("resultado").innerHTML="No se puede dividir por Cero"
+        document.getElementById("resultado").innerHTML="Math: ERror"
     }else document.getElementById("resultado").innerHTML=(valor1)/(valor2)
     alert("Usted ha realizado una División")    
 }
