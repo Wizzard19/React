@@ -1,14 +1,20 @@
 import './App.css';
+
+
 function App() {
-  return(
+  return (
+    <div className='App'>
 
-    <div className="Title">
+      Hola mundo
+
       
-      <h1>Lunesha</h1>
-      
+
+
+
+
+
     </div>
-
-  )
+  );
 }
 
 export default App;
