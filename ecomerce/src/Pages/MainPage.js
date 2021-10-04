@@ -1,11 +1,8 @@
-import {
-    Link
-} from 'react-router-dom';
 
 
 
 
-function Menu(){
+function MainPage(){
 
     return(
     
@@ -13,9 +10,9 @@ function Menu(){
     
               <h1>Meelanesha</h1>
               
-              esto es un E-Comerce desarrollado por Alejandro Nahuel Spitale
+              Desarrollado por Alejandro Nahuel Spitale
 
-              <h6>TP obligatorio N°2</h6>
+              <abmProd />              
     
     
       </div>
@@ -26,4 +23,4 @@ function Menu(){
     
     }
     
-    export default Menu;
+    export default MainPage;
